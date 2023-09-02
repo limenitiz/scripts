@@ -2,55 +2,35 @@
   border-radius: 0;
 }
 
-.profile_image_wrap::after {
-  border: none;
-}
-
-li a[href="/inside/library"] {
-  display: none;
+.sidebar__menu li {
   border-bottom: none;
 }
 
-li a[href="/inside/publications"] {
-  display: none;
-  border-bottom: none;
-}
+.sidebar__menu li 
+  a[href="/inside/library"],
+  a[href="/inside/feedback"],
+  a[href="/inside/publications"],
+  a[href="/inside/students/subjects"],
+  a[href*="lms.guap.ru"],
+  a[href="/help"]
+  {
+    display: none;
+  }
 
-li a[href*="lms.guap.ru"] {
-  display: none;
-  border-bottom: none;
-}
-
-
-li a[href="/help"] {
-  display: none;
-  border-bottom: none;
-}
-
-li a[href="/inside/feedback"] {
-  display: none;
-  border-bottom: none;
-}
-
-li a[href="/inside/students/subjects"] {
-  display: none;
-  border-bottom: none;
-}
-
-/* li a[href="/inside/profile"] {
-  display: none;
-  border-bottom: none;
-} */
 
 div[class="profile-picture"] {
   display: none;
   border-bottom: none;
 }
 
-._active {
-  color: #fff;
-  border-right: 0px;
-  background: linear-gradient(180deg, rgba(0,90,170,0.8) 0%, rgba(0,90,170,1) 10%, rgba(0,90,170,1) 90%, rgba(102,156,204,0.8) 100%);;
+.profile_image_wrap::after {
+  border: none;
 }
 
+._active {
+  border-right: 4px solid var(--suai-theme-color);
+  border-top-right-radius: var(--border-right-radius);
+  border-bottom-right-radius: var(--border-right-radius);
+  --border-right-radius: 3px;
+}
 
