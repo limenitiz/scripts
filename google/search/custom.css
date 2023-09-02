@@ -1,0 +1,36 @@
+:root {
+  --favicon-size: 22px;
+}
+
+
+.Ww4FFb, .FalWJb {
+  background: transparent;
+}
+
+span.H9lube {
+  border-radius: 0;
+  padding: 0;
+  height:  var(--favicon-size); 
+  line-height: var(--favicon-size);
+}
+
+img.XNo5Ab {
+  height: var(--favicon-size);
+  width: var(--favicon-size);
+}
+
+span.VuuXrf {
+  display: none;
+}
+
+.ULSxyf, .dG2XIf, .MjjYud {
+  background-color: var(--lt-color-gray-700);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px;
+}
+
+a.oBa0Fe {
+  display: none;
+}
+
