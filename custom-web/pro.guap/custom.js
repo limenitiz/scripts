@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         SUAI Plantago
+// @namespace    https://github.com/limenitiz/scripts
+// @version      0.1
+// @description  Adds sorting to the personal account Pro.guap
+// @author       Limenitiz
+// @match        *://pro.guap.ru/inside/student/tasks/*
+// @match        *://pro.guap.ru/inside/student/materials/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=guap.ru
+// @grant        none
+// ==/UserScript==
+
 function includeCSS(newElementId, href) {
     if (!document.getElementById(newElementId))
     {
