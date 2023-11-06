@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name         SUAI Plantago
-// @namespace    https://github.com/limenitiz/scripts
+// @name         Sort in tables (tasks)
+// @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Adds sorting to the personal account Pro.guap
-// @author       Limenitiz
-// @match        *://pro.guap.ru/inside/student/tasks/*
-// @match        *://pro.guap.ru/inside/student/materials/*
+// @description  try to take over the world!
+// @author       You
+// @match        https://pro.guap.ru/inside/student/tasks/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=guap.ru
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/limenitiz/scripts/master/custom-web/pro.guap/custom.js
+// @updateURL    https://raw.githubusercontent.com/limenitiz/scripts/master/custom-web/pro.guap/custom.js
 // ==/UserScript==
 
 function includeCSS(newElementId, href) {
