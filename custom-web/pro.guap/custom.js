@@ -1,12 +1,7 @@
 // ==UserScript==
 // @name         Sort in tables (tasks)
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
 // @match        https://pro.guap.ru/inside/student/tasks/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=guap.ru
-// @grant        none
 // @downloadURL  https://raw.githubusercontent.com/limenitiz/scripts/master/custom-web/pro.guap/custom.js
 // @updateURL    https://raw.githubusercontent.com/limenitiz/scripts/master/custom-web/pro.guap/custom.js
 // ==/UserScript==
